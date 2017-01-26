@@ -46,6 +46,7 @@ public class Frame {
 	public void render(Graphics g) {
 		g.drawImage(this.backgroundImage, 0, 0, null);
 
+		//supposed to be for the logo
 		g.setColor(Color.BLACK);
 		g.fillRect(0,0, 100, 100);
 
